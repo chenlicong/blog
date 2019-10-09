@@ -16,7 +16,7 @@ class ArticleController extends Controller
      */
     public function index() {
         $articles = ArticleModel::all();
-        $data = [];
+        $data = ['fff'];
         return view('home.article.index', compact('data', $data));
     }
 
