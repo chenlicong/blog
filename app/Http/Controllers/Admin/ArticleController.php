@@ -14,6 +14,7 @@ class ArticleController extends Controller
      * @return null
      */
     public function index() {
+        echo "fff";
         return view('admin.article.index');
     }
 
