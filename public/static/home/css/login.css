@@ -1,0 +1,63 @@
+.login-header{ height:130px;}
+.login-header-content .logo{ width:86px; height:86px; margin:20px 0 0 20px; float:left;}
+.login-header-content .tit{  float:left; height:40px; line-height:40px; margin-top:40px; font-size:32px; text-indent:20px; margin-left:40px; color:#575757;}
+.login-header-content .home{ float:right; height:130px; line-height:130px;}
+.login-header-content .home a{ font-size:32px; color:#575757;}
+.login-footer{}
+.login-footer .copyright{ height:50px; line-height:50px; text-align:center; font-size:12px;}
+.login-main{ height:600px; background:#FFF url(../images/login/login-bg.jpg) center top no-repeat; }
+.login-main-box{ height:600px; position:relative; }
+.login-box{ width:340px; height:522px; background:#FFF; border:1px solid #E6E6E6; border-radius:3px; position:absolute; top:50px; right:0;}
+.login-box .head{ height:50px; line-height:50px; border-bottom:1px solid #E6E6E6; text-align:center; font-size:24px; }
+.login-box .head .tab{ display:block; text-align:center; height:46px; line-height:46px; width:50%; float:left; border-bottom:4px solid #FFF; color:#575757;}
+.login-box .head .tab.action{ color:#E1082D; border-bottom:4px solid #E1082D;}
+.login-box .main{ padding-top:0px;}
+
+.login-box .form-row{ width:90%; margin:10px auto; height:50px; line-height:50px; position:relative; }
+.login-box .form-row i{ display:block; width:24px; height:24px; background:url(../images/login/login-ico-1.png) no-repeat; position:absolute; left:10px; top:50%; transform:translateY(-50%);}
+.login-box .form-row i.username{ background-position:0 0;}
+.login-box .form-row i.password{ background-position:0 -24px;}
+.login-box .form-row i.realname{ background-position:0 -48px;}
+.login-box .form-row i.mobile{ background-position:0 -72px;}
+.login-box .form-row i.code{ background-position:0 -96px;}
+.login-box .form-row .inp{ border:1px solid #E6E6E6; overflow:hidden;}
+.login-box .form-row .inp input{ width:100%; font-size:14px; border:none; text-indent:40px;} 
+.login-box .form-row .btn{ display:block; width:100%; height:50px; line-height:50px;text-align:center; font-size:18px; color:#FFF;  border-radius:3px;}
+.agreement input{ width:24px; height:24px; border:1px solid #E6E6E6; border-radius:5px; float:left; margin-top:13px; margin-right:5px; }
+.agreement a{ color:#06F;}
+.code{ height:50px; line-height:50px;}
+.code img{ margin-left:20px; height:50px;}
+.register-code{ border:1px solid #E6E6E6; width:50%;  height:48px; line-height:48px; float:left; text-indent:40px;}
+#getSmsCode{ margin-left:20px;}
+.login-box .foot{ width:100%; height:50px; line-height:50px; text-align:center; border-top:1px solid #E6E6E6; position:absolute; bottom:0;}
+.login-box .foot a{ margin-right:40px;}
+
+.forget-main{ background:url(../images/login/login-forget-bg.jpg) center top no-repeat; height:600px; width:100%; overflow:hidden;}
+.forget-main-box{ background:#FFF url(../images/login/login-bg1.png) 450px center no-repeat; border-radius:10px; height:500px; margin-top:50px;}
+.forget-head{ width:100%; height:50px; line-height:50px; background:#E21939 url(../images/login/login-kefu.png) 40px center no-repeat; border-radius:10px 10px 0 0;}
+.forget-head a{ float:right; color:#FFF; margin-right:20px; font-size:16px;}
+.forget-form{ padding:60px; width:352px; overflow:hidden;  float:left; position:relative;}
+.forget-form .form-row{ width:100%; height:44px; line-height:44px; margin-bottom:20px; position:relative;}
+.forget-form .form-row .inp{ width:350px; border:1px solid #E6E6E6;}
+.forget-form .form-row .inp input{ border: none; width:60%; text-indent:40px;}
+.forget-form .form-row .btn{ display:block; width:350px; height:40px; line-height:40px; text-align:center; font-size:16px; color:#FFF;  border-radius:3px;}
+
+.forget-form .form-row i{ display:block; width:24px; height:24px; background:url(../images/login/login-ico-1.png) no-repeat; position:absolute; left:10px; top:50%; transform:translateY(-50%);}
+.forget-form .form-row i.username{ background-position:0 0;}
+.forget-form .form-row i.password{ background-position:0 -24px;}
+.forget-form .form-row i.realname{ background-position:0 -48px;}
+.forget-form .form-row i.mobile{ background-position:0 -72px;}
+.forget-form .form-row i.code{ background-position:0 -96px;}
+
+.tips-box{ position:absolute; width:100%; height:100%;  top:0; left:0; display:none;}
+.tips-box .tips-grey{ position:absolute;width:100%; height:100%; background:#000; opacity:0.5;  top:0; left:0; transition:all ease 0.3s; }
+.tips-box .tips-message{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); line-height:25px; font-size:16px; color:#FFF;}
+
+.btn-login{ background:#E21939;}
+.btn-login:hover{ background:#E00; transition:all ease 0.3s;}
+
+.agreement-box{ display:none; width:60%; height:600px; position:fixed; background:#FFF; top:100px; left:50%; transform:translateX(-50%); border-radius:10px;}
+.agreement-box .head{ height:50px; line-height:50px; text-align:center; font-size:18px; background:#E21939; border-radius:10px 10px 0 0; color:#FFF;}
+.agreement-box .agreement-foot{ width:100%; height:50px; line-height:50px; text-align:center; position:absolute; bottom:0; left:0; }
+.agreement-box .agreement-foot a{ padding:5px 20px; background:#E21939; color:#FFF; border-radius:5px;}
+.agreement-box .agreement-content{height:400px; line-height:25px; font-size:16px; overflow-y:scroll; padding:50px;}
